@@ -22,7 +22,6 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             table_hotelSeeder::class,
-            foodSeeder::class
 
         ]);
     }
